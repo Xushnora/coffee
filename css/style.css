@@ -134,6 +134,20 @@ ul {
     margin-bottom: 71px;
 }
 .hero__btn {
+    /* font-family: var(--title-font);
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--text-color1);
+    text-align: center;
+    padding: 15px 31px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 6px; */
+}
+
+.btn {
     font-family: var(--title-font);
     font-weight: 900;
     font-size: 18px;
@@ -200,11 +214,19 @@ ul {
 
 .choose {
     padding-top: 100px;
+    height: 728px;
 }
 .choose__page {
     padding: 100px 85px;
     background-color: var(--bg-color);
     border-radius: 8px;
+    height: 577px;
+}
+
+.choose__info {
+    width: 540px;
+    margin: 0 auto;
+
 }
 
 .choose__heading {
@@ -223,11 +245,12 @@ ul {
     text-align: center;
     color: var(--text-color1);
     opacity: 0.8;
-    margin-bottom: 86px;
-    width: 540px;
-    
+    margin-bottom: 86px;    
 }
 
+.choose__item {
+    padding: 15px;
+}
 
 .choose__box {
     padding: 72px 48px 48px 48px;
@@ -255,6 +278,7 @@ ul {
     text-align: center;
     color: var(--text-color1);
 }
+
 
 
 
@@ -313,6 +337,33 @@ ul {
     .choose__box {
         display: flex;
         width: 100%;
+        padding: 41px 48px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .choose__page {
+        padding: 64px 24px;
+        width: 100%;
+        height: 650px;
+    }
+
+    .choose__desc {
+        width: 100%;
+        text-align: start;
+    }
+
+    .choose__title {
+        margin-bottom: 16px;
+    }
+
+    .choose__text {
+        width: 90%;
+    }
+
+    .choose__img {
+        width: 56px;
+        height: 56px;
     }
 
 }
@@ -394,6 +445,27 @@ ul {
         align-items: center;
     }
     .clln__desc {
+        width: 100%;
+    }
+
+    .choose__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .choose {
+        width: 100%;
+    }
+
+    .choose__page {
+        padding: 64px 24px;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .choose__info {
         width: 100%;
     }
 
