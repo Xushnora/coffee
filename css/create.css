@@ -48,6 +48,10 @@ a {
 
 /* work */
 
+.work {
+    padding: 80px 0;
+}
+
 .work__content{
     padding: 100px 80px;
     background-color: var(--bg-color);
