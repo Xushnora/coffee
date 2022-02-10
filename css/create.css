@@ -46,6 +46,22 @@ a {
     line-height: 26px;
 }
 
+/* work */
+
+.work__content{
+    padding: 100px 80px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+}
+
+.wbox__title {
+    color: var(--text-color1);
+}
+
+.wbox__text {
+    color: var(--text-color1);
+}
+
 
 
 
