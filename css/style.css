@@ -791,7 +791,6 @@ ul {
 }
 
 .show {
-    /* display: block; */
     top: 0;
     opacity: 1;
 }
